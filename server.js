@@ -22,7 +22,7 @@ const formRoutes = require("./routes/form");
 //db
 
 mongoose
-  .connect(process.env.DATABASE_CLOUDE, {
+  .connect(process.env.DATABASE_LOCAL, {
     useNewUrlParser: true,
     // useCreateIndex: true,
     // useFindAndModify: false,
