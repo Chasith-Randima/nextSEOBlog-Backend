@@ -8,6 +8,8 @@ const {
 } = require("../contollers/auth");
 const { read, publicProfile, update, photo } = require("../contollers/user");
 
+// user routs
+
 router.get("/user/profile", requireSignin, authMiddleware, read);
 router.get("/user/:username", publicProfile);
 router.put("/user/update", requireSignin, authMiddleware, update);

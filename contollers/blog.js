@@ -183,6 +183,7 @@ exports.listAllBlogsCategoriesTags = (req, res) => {
     });
 };
 exports.read = (req, res) => {
+  console.log(req.params);
   const slug = req.params.slug.toLowerCase();
 
   Blog.findOne({ slug })
