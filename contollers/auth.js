@@ -7,6 +7,8 @@ const { errorHandler } = require("../helpers/dbErrorHandler");
 const _ = require("lodash");
 const { OAuth2Client } = require("google-auth-library");
 
+// auth functions
+
 const sgMail = require("@sendgrid/mail");
 const { generate } = require("shortid");
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
