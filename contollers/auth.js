@@ -114,7 +114,7 @@ exports.signup = (req, res) => {
 //           }
 
 //           return res.json({
-//             message: "Signed up successfully!Please signin !",
+//             message: "Signed up successfully!Please signin!",
 //           });
 //         });
 //       }
