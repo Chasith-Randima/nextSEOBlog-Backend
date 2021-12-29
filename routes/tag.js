@@ -15,6 +15,7 @@ const { runValidation } = require("../validators");
 const { tagCreateValidator } = require("../validators/tag");
 // const { remove } = require("../models/category");
 
+// tag routes
 router.post(
   "/tag",
   tagCreateValidator,

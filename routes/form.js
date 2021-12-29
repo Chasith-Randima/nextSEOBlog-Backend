@@ -5,6 +5,7 @@ const { contactForm, contactBlogAuthorForm } = require("../contollers/form");
 const { runValidation } = require("../validators");
 const { contactFormValidator } = require("../validators/form");
 
+// contact routes
 router.post("/contact", contactFormValidator, runValidation, contactForm);
 router.post(
   "/contact-blog-author",

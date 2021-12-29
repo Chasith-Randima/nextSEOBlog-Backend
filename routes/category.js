@@ -8,7 +8,6 @@ const {
   authMiddleware,
   adminMiddleware,
 } = require("../contollers/auth");
-// const { read } = require("../contollers/user");
 
 const { runValidation } = require("../validators");
 
