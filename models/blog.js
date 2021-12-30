@@ -1,6 +1,8 @@
 const mongoose = require("mongoose");
 const { ObjectId } = mongoose.Schema;
 
+// blog schema
+
 const blogSchema = new mongoose.Schema(
   {
     title: {
