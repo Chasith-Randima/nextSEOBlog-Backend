@@ -22,7 +22,7 @@ const formRoutes = require("./routes/form");
 //db
 
 mongoose
-  .connect(process.env.DATABASE_LOCAL, {
+  .connect(process.env.DATABASE_CLOUDE, {
     useNewUrlParser: true,
     // useCreateIndex: true,
     // useFindAndModify: false,
@@ -63,7 +63,7 @@ app.use("/api", formRoutes);
 
 //port
 
-const port = process.env.PORT || 8000;
+const port = process.env.PORT;
 
 app.listen(port, () => {
   console.log(`Server running on port ${port}..`);
