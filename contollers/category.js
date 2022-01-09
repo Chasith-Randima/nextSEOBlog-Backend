@@ -70,7 +70,7 @@ exports.remove = (req, res) => {
       });
     }
     res.json({
-      message: "Category dleted successfully",
+      message: "Category dleted successfully.",
     });
   });
 };
