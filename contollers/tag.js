@@ -70,7 +70,7 @@ exports.remove = (req, res) => {
       });
     }
     res.json({
-      message: "tag deleted successfully",
+      message: "tag deleted successfully.",
     });
   });
 };
