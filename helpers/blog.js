@@ -1,3 +1,5 @@
+// function to trim space
+
 exports.smartTrim = (str, length, delim, appendix) => {
   if (str.length <= length) return str;
 
