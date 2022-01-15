@@ -121,7 +121,7 @@ exports.signup = (req, res) => {
 //     );
 //   } else {
 //     return res.json({
-//       error: "Something went wrong .Try again.!",
+//       error: "Something went wrong .Try again..!",
 //     });
 //   }
 // };
