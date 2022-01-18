@@ -43,7 +43,7 @@ router.put(
 
 router.post("/google-login", googleLogin);
 
-//tests
+//test
 
 router.get("/secret", requireSignin, (req, res) => {
   res.json({
