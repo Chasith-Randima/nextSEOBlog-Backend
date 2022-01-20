@@ -7,5 +7,5 @@ exports.contactFormValidator = [
     .not()
     .isEmpty()
     .isLength({ min: 20 })
-    .withMessage("Message must be at least 20 charactors long"),
+    .withMessage("Message must be at least 20 charactors long."),
 ];
