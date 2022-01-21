@@ -1,5 +1,6 @@
 const { validationResult } = require("express-validator");
 
+// index validators
 exports.runValidation = (req, res, next) => {
   const errors = validationResult(req);
 
